@@ -31,4 +31,9 @@ same as tab-port so not needed
 
 body {
   box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 }
